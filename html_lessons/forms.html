@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<!--example of types, emails etc-->
+    <form>
+        <h1>Log in</h1>
+        <h2>Please input your email and password</h2>
+        <input type="email" name="useremail" value="Email here">
+        <input type="password" name="" value="">
+        <input type="submit" name="" value="Submit">
+    </form>
+<!--colour picker embedded usage of html-->
+    <form>
+        <p>-------------------</p>
+        <h1>Choose colour</h1>
+        <h2>Click the button</h2>
+        <input type="color" name="" value="">
+    </form>
+<!--linking forms with action-->
+        <p>------------------</p>
+    <form action="https://www.facebook.com" method="get">
+        <h1>Link example</h1>
+        <p>Enter text and take me to facebook</p>
+        <input type="text" name="userinput" value="">
+        <input type="submit" name="" value="Submit">
+    </form>
+<!--labeling forms-->
+        <p>-------------------------</p>
+    <form>
+        <label for="userinput">Enter input:</label>
+        <input id="userinput" type="text" name="" value="Hello!">
+<!--using placeholder so you dont have to delete the value-->
+        <label for="userinput2">Enter input:</label>
+        <input id="userinput2" type="text" name="" placeholder="Hello again"
+    </form>
+<!--Required keyword-->
+        <p>------------</p>
+    <form>
+        <input type="text" name="" placeholder="Required" required>
+        <input type="text" name="" placeholder="Not required">
+        <input type="submit" name="submit">
+    </form>
+
+
+
+</body>
+</html>
