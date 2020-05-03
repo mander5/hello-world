@@ -1,0 +1,25 @@
+h1{
+  font-family: 'Indie Flower', cursive;
+}
+
+td{
+  height: 300px;
+  width: 150px;
+  border: 6px solid white;
+}
+
+#one{
+  background: #FF99C8;
+}
+#two{
+  background: #FCF6BD;
+}
+#three{
+  background: #D0F4DE;
+}
+#four{
+  background: #A9DEF9;
+}
+#five{
+  background: #E4C1F9;
+}

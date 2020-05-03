@@ -1,0 +1,20 @@
+body{
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  background: #a8dadc;
+  padding:  20px;
+  margin: 0px;
+}
+.content{
+  background: #1d3557;
+  text-align:center;
+  padding: 20px
+}
+input[type=submit] {
+    padding:5px 15px;
+    background:#fcbf49;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel feedback</title>
+</head>
+<body>
+<h1>Hotel Feedback form</h1>
+<form method="get">
+
+    <h3>Are you local</h3>
+
+    <label for="local">yes</label>
+    <input id="local" type="radio" name="loc" value="local">
+
+    <label for="notlocal">no</label>
+    <input id="notlocal" type="radio" name="loc" value="nonlocal">
+
+    <h3>How was the service?</h3>
+    <select name="stars">
+        <option value="Great">3</option>
+        <option value="ok">2</option>
+        <option value="bad">1</option>
+    </select>
+
+    <p>Any other feedback?</p>
+    <textarea name="mytext" rows="8" cols="80"></textarea>
+
+    <input type="submit" name="submit">
+
+
+</form>
+
+
+</body>
+</html>
